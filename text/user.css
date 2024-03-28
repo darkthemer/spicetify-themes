@@ -583,7 +583,10 @@ form .main-topBar-searchBar:placeholder-shown {
     gap: 8px;
     text-decoration: none !important;
 }
-.main-yourLibraryX-navLink > svg,
+.main-yourLibraryX-navLink .home-icon,
+.main-yourLibraryX-navLink .search-icon,
+.main-yourLibraryX-navLinkActive .home-active-icon,
+.main-yourLibraryX-navLinkActive .search-active-icon,
 .main-yourLibraryX-header .main-yourLibraryX-collapseButtonWrapper > span {
     transform: scale(0.7);
 }
