@@ -157,6 +157,31 @@ Here you can find a preview of all the themes. Some of them may have different c
 |                Wealthy                |               Dracula               |
 |  ![VantaBlack](Sleek/vantablack.png)  |   ![RosePine](Sleek/rosepine.png)   |
 |              VantaBlack               |              RosePine               |
+|  ![Eldritch](Sleek/eldritch.png)      |                                     |
+|              Eldritch                 |                                     |
+
+## StarryNight
+
+#### Base
+![Base](StarryNight/images/base.png)
+
+#### Cotton Candy
+![Cotton-candy](StarryNight/images/cotton-candy.png)
+
+#### Forest
+![Forest](StarryNight/images/forest.png)
+
+#### Galaxy
+![Galaxy](StarryNight/images/galaxy.png)
+
+#### Orange
+![Orange](StarryNight/images/orange.png)
+
+#### Sky
+![Sky](StarryNight/images/sky.png)
+
+#### Sunrise
+![Sunrise](StarryNight/images/sunrise.png)
 
 ## text
 
