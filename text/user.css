@@ -48,6 +48,7 @@
     --border-radius: 0px;
     --border-width: 1px;
     --border-style: solid; /* dotted | dashed | solid | double | groove | ridge | inset | outset */
+    --border-transition: 0.2s ease; /* 'none' to disable  */
 }
 
 /* font */
@@ -57,15 +58,18 @@
     font-weight: var(--font-weight) !important;
     line-height: var(--line-height) !important;
 }
-.lyrics-lyrics-container * {
+.lyrics-lyrics-container *,
+.main-nowPlayingView-lyricsContent * {
     font-family: var(--font-family);
     font-size: var(--font-size-lyrics);
     font-weight: var(--font-weight);
     line-height: var(--line-height);
 }
 .main-entityHeader-title h1 {
-    font-family: "asciid" !important;
-    font-size: calc(var(--font-size) * var(--font-size-multiplier-header)) !important;
+    font-family: var(--font-family-header) !important;
+    font-size: calc(
+        var(--font-size) * var(--font-size-multiplier-header)
+    ) !important;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -105,7 +109,6 @@
 .Root__top-bar {
     border: var(--border-width) solid transparent;
 }
-.Root__main-view,
 .Root__nav-bar,
 .Root__now-playing-bar {
     overflow: visible;
@@ -271,15 +274,18 @@
 .Root__main-view,
 .Root__now-playing-bar,
 .Root__right-sidebar:has(aside:not(:empty)) {
-    border: var(--border-width) var(--border-style) var(--spice-border-inactive);
+    border: var(--border-width) var(--border-style);
+    border-color: var(--spice-border-inactive);
     border-radius: var(--border-radius);
     background-color: var(--spice-main);
+    transition: border-color var(--border-transition);
 }
 .main-yourLibraryX-entryPoints:hover,
 .Root__main-view:hover,
 .Root__now-playing-bar:hover,
 .Root__right-sidebar:has(aside:not(:empty)):hover {
-    border: var(--border-width) var(--border-style) var(--spice-border-active);
+    border: var(--border-width) var(--border-style);
+    border-color: var(--spice-border-active);
 }
 
 /* pane headers */
@@ -297,6 +303,7 @@
     background: var(--spice-main);
     padding: 0 3px;
     z-index: 9;
+    transition: color var(--border-transition);
 }
 .Root__nav-bar .main-yourLibraryX-entryPoints:nth-child(1)::before {
     content: "Pages";
@@ -306,6 +313,7 @@
 }
 .Root__main-view::before {
     content: "Main";
+    position: fixed;
 }
 .Root__now-playing-bar::before {
     content: "Playing";
@@ -534,8 +542,9 @@
 }
 
 /* lyrics cinema */
-.main-lyricsCinema-lyricsCinemaVisible {
+.Root__lyrics-cinema {
     border: var(--border-width) var(--border-style) transparent;
+    overflow: hidden;
 }
 .main-nowPlayingView-lyricsContent {
     -webkit-mask-image: none !important;
@@ -593,6 +602,14 @@
     width: 32px !important;
 }
 
+/* left nowplaying text */
+.main-nowPlayingBar-left {
+    padding-inline-start: 0;
+}
+.main-nowPlayingWidget-trackInfo {
+    margin: 0;
+}
+
 /* volume bar */
 .volume-bar__slider-container .x-progressBar-fillColor,
 .volume-bar__slider-container
@@ -625,6 +642,7 @@
 .player-controls__buttons,
 .main-nowPlayingBar-extraControls {
     opacity: 0.25;
+    transition: opacity var(--border-transition);
 }
 .player-controls__buttons:hover,
 .main-nowPlayingBar-extraControls:hover {
@@ -668,7 +686,7 @@
     content: "\21BB\2474";
 }
 .main-shuffleButton-button > svg,
-.ecHWOS svg,
+.player-controls__left .ecHWOS svg,
 .main-skipBackButton-button > svg,
 .main-playPauseButton-button > svg,
 .main-skipForwardButton-button > svg,

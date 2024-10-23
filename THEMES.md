@@ -2,6 +2,9 @@
 
 Here you can find a preview of all the themes. Some of them may have different colour schemes (in that case you'll find different entries in the same theme, each one named after the colour scheme).
 
+## SharkBlue
+![SharkBlue Screenshot](SharkBlue/screenshot.png)
+
 ## BurntSienna
 
 ![BurntSienna Screenshot](BurntSienna/screenshot.png)
@@ -110,7 +113,7 @@ Here you can find a preview of all the themes. Some of them may have different c
 
 | ![Periwinkle](Matte/screenshots/ylx-periwinkle.png) | ![Periwkinle-Dark](Matte/screenshots/ylx-periwinkle-dark.png) |
 | :-------------------------------------------------: | :-----------------------------------------------------------: |
-|                        Light                        |                            Dark                               |
+|                        Light                        |                             Dark                              |
 
 #### Porcelain
 ![Porcelain](Matte/screenshots/ylx-porcelain.png)
@@ -119,11 +122,11 @@ Here you can find a preview of all the themes. Some of them may have different c
 ![Gray](Matte/screenshots/ylx-gray.png)
 | ![Gray-Light](Matte/screenshots/ylx-gray-light.png) | ![Gray-Dark1](Matte/screenshots/ylx-gray-dark1.png) |
 | :-------------------------------------------------: | :-------------------------------------------------: |
-|                        Light                        |                       Dark                          |
+|                        Light                        |                        Dark                         |
 
 ## Nightlight
 
-![Nightlight](Nightlight/screenshots/nightlight.png) 
+![Nightlight](Nightlight/screenshots/nightlight.png)
 
 ## Onepunch
 
@@ -157,8 +160,8 @@ Here you can find a preview of all the themes. Some of them may have different c
 |                Wealthy                |               Dracula               |
 |  ![VantaBlack](Sleek/vantablack.png)  |   ![RosePine](Sleek/rosepine.png)   |
 |              VantaBlack               |              RosePine               |
-|  ![Eldritch](Sleek/eldritch.png)      |                                     |
-|              Eldritch                 |                                     |
+|    ![Eldritch](Sleek/eldritch.png)    |                                     |
+|               Eldritch                |                                     |
 
 ## StarryNight
 
@@ -196,11 +199,11 @@ Here you can find a preview of all the themes. Some of them may have different c
 ### Catppuccin
 
 |                                                          |                                                                  |
-|:--------------------------------------------------------:|:----------------------------------------------------------------:|
+| :------------------------------------------------------: | :--------------------------------------------------------------: |
 | ![CatppuccinMocha](text/screenshots/CatppuccinMocha.png) | ![CatppuccinMacchiato](text/screenshots/CatppuccinMacchiato.png) |
-| Catppuccin Mocha                                         | Catppuccin Macchiato                                             |
+|                     Catppuccin Mocha                     |                       Catppuccin Macchiato                       |
 | ![CatppuccinLatte](text/screenshots/CatppuccinLatte.png) |                                                                  |
-| Catppuccin Latte                                         |                                                                  |
+|                     Catppuccin Latte                     |                                                                  |
 
 #### Dracula
 
@@ -228,9 +231,9 @@ Here you can find a preview of all the themes. Some of them may have different c
 
 #### RosePine
 
-| ![RosePine](text/screenshots/RosePine.png) | ![RosePineMoon](text/screenshots/RosePineMoon.png) |
-|:------------------------------------------:|:--------------------------------------------------:|
-| Rose Pine                                  | Rose Pine Moon                                     |
+| ![RosePine](text/screenshots/RosePine.png) | ![RosePineMoon](text/screenshots/RosePineMoon.png) | ![RosePineDawn](text/screenshots/RosePineDawn.png) |
+| :----------------------------------------: | :------------------------------------------------: | :------------------------------------------------: |
+|                 Rose Pine                  |                   Rose Pine Moon                   |                   Rose Pine Dawn                   |
 
 #### Solarized
 
@@ -239,8 +242,8 @@ Here you can find a preview of all the themes. Some of them may have different c
 #### TokyoNight
 
 | ![TokyoNight](text/screenshots/TokyoNight.png) | ![TokyoNightStorm](text/screenshots/TokyoNightStorm.png) |
-|:----------------------------------------------:|:--------------------------------------------------------:|
-| Tokyo Night                                    | Tokyo Night Storm                                        |
+| :--------------------------------------------: | :------------------------------------------------------: |
+|                  Tokyo Night                   |                    Tokyo Night Storm                     |
 
 
 ## Turntable
@@ -291,29 +294,29 @@ Here you can find a preview of all the themes. Some of them may have different c
 
 | ![Playlists](Ziro/screenshots/rose-pine-moon.jpg) | ![Playlists](Ziro/screenshots/rose-pine-dawn.jpg) |
 | :-----------------------------------------------: | :-----------------------------------------------: |
-|                       Moon                        |                       Dawn                        | 
+|                       Moon                        |                       Dawn                        |
 
-| ![Playlists](Ziro/screenshots/rose-pine.jpg)      |
-| :-----------------------------------------------: | 
-|                       Rose-Pine                        |
+| ![Playlists](Ziro/screenshots/rose-pine.jpg) |
+| :------------------------------------------: |
+|                  Rose-Pine                   |
 
 ## Flow
 
 #### Ocean
-<img src="https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Flow/screenshots/ocean.png" alt="img"> 
+<img src="https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Flow/screenshots/ocean.png" alt="img">
 
 
 #### Pink
-<img src="https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Flow/screenshots/pink.png" alt="img"> 
+<img src="https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Flow/screenshots/pink.png" alt="img">
 
 
 #### Silver
-<img src="https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Flow/screenshots/silver.png" alt="img"> 
+<img src="https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Flow/screenshots/silver.png" alt="img">
 
 
 #### Violet
-<img src="https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Flow/screenshots/violet.png" alt="img"> 
+<img src="https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Flow/screenshots/violet.png" alt="img">
 
 
 ### Blossom
-<img src="https://user-images.githubusercontent.com/72624799/203471073-4a5e6cf0-a5dc-4ecc-9a12-56d5fc716ac4.png" alt="img"> 
+<img src="https://user-images.githubusercontent.com/72624799/203471073-4a5e6cf0-a5dc-4ecc-9a12-56d5fc716ac4.png" alt="img">
