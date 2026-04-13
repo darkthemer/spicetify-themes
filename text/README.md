@@ -80,9 +80,17 @@
 
 ![ForestGreen](screenshots/ForestGreen.png)
 
+### EverforestDarkHard
+
+![EverforestDarkHard](screenshots/EverforestDarkHard.png)
+
 ### EverforestDarkMedium
 
 ![EverforestDarkMedium](screenshots/EverforestDarkMedium.png)
+
+### EverforestDarkSoft
+
+![EverforestDarkSoft](screenshots/EverforestDarkSoft.png)
 
 ## More
 
@@ -163,6 +171,9 @@ xpui.js_repl_8008 = ,${1}32,
     --border-radius: 0px;
     --border-width: 1px;
     --border-style: solid; /* dotted | dashed | solid | double | groove | ridge | inset | outset */
+    --border-transition: 0.2s ease; /* 'none' to disable  */
+
+    --global-nav-margin-top: 50px; /* set to '0px' if you disabled window controls */
 }
 ```
 
@@ -177,7 +188,7 @@ xpui.js_repl_8008 = ,${1}32,
     position: absolute;
     right: 0;
     z-index: 999;
-    
+
     backdrop-filter: brightness(2.12);
     /* page zoom [ctrl][+] or [ctrl][-]
        edit width and height accordingly */
@@ -185,8 +196,7 @@ xpui.js_repl_8008 = ,${1}32,
     /* depending on what global status bar
        style is enabled height need to be
        changed accordingly. */
-    height: 32px;
-    margin-top: 16px;
+    height: 64px;
 }
 ```
 
